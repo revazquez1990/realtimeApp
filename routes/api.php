@@ -5,7 +5,7 @@
 Route::get('/question/{question}', 'QuestionController@show');
 Route::delete('/question/{question}', 'QuestionController@destroy'); */
 
-use Illuminate\Routing\Route;
+//use Illuminate\Routing\Route;
 
 Route::apiResource('/question', 'QuestionController');
 
